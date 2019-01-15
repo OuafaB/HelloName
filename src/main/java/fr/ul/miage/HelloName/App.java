@@ -91,7 +91,7 @@ public class App
     		for (CSVRecord r : p) {
     			String nom = r.get(0);
     			String prenom = r.get(1);
-    			System.out.println("Hello"+nom+" "+prenom+"!");
+    			System.out.println("Hello "+nom+" "+prenom+"!");
     		}
     	} catch(IOException e) {
     		LOG.severe("Erreur de lecture dans le fichier CSV");
